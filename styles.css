@@ -1,0 +1,73 @@
+/* this style keeps the Gulp logo from taking over the whole page. Adjust if needed to size correctly for your page. */
+
+body {
+  background-color: #F7FED8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav img, nav .img-fluid {
+  max-width: 150px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  text-align: center;
+  margin: 3rem;
+}
+
+.card {
+  margin: 2rem 2rem;
+}
+
+img {
+  border-radius: 5% 5%;
+}
+
+.card img {
+  border-radius: 5% 5%;
+}
+
+.card {
+  border-radius: 5%;
+}
+
+
+.popover {
+    white-space: pre-line;    
+}
+
+.booking {
+  display: flex;  
+  justify-content: center;  
+}
+
+.input-group {
+  margin-bottom: 5rem;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+article {
+  margin: auto 0;
+}
+
+footer {
+  margin-top: auto;
+}

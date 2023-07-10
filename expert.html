@@ -1,0 +1,74 @@
+<header class="bg-primary border-bottom border-secondary border-5 mb-5">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="myscripts.js"></script>
+
+</header>
+
+<body>
+  <header>
+    <h1>Meet Justin Z.</h1>
+  </header>
+
+  <article>
+  <img class="card-img-top" src="imgs/DE7.jpg" alt="Card image cap">
+  
+  <h3>
+  <b>Name:</b> Justin Zhao<br>
+  <b>Location:</b> Thailand<br>
+  <b>Expertise:</b> Living and working in Thailand for foreigners<br>
+  <b>Rating:</b> 4.7/5<br>
+  <b>First Available:</b> July 1, 2023 GMT
+</h3>
+
+  
+  <div class="container mt-3 booking">
+  
+    <button type="button" class="btn btn-warning btn-rounded" data-bs-toggle="popover" title="Coming soon!" data-bs-content="Calendar integration to book the meeting.">
+      <h3>ready to book a meeting?</h3>
+    </button>
+
+
+  </div>
+
+<script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+</article>
+
+
+<footer class="border-secondary border-top border-5 text-center py-5 mt-5 text-white">
+  <nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <i class="fa-solid fa-magnifying-glass fa-3x" style="color: black"></i>
+          <a class="nav-link" href="search.html">Search</a>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <i class="fa-regular fa-bell fa-3x" style="color: black"></i>
+          <a class="nav-link" href="#">Notifications</a>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <i class="fa-solid fa-users fa-3x" style="color: black"></i>
+          <a class="nav-link" aria-current="page" href="#">My DE</a>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <i class="fa-sharp fa-regular fa-user fa-3x" style="color: black"></i>
+          <a class="nav-link" href="#">My Account</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+
+</body>
+
