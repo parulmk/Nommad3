@@ -8,134 +8,145 @@
 
 <body>
 
-  <header>
-    <h1>Destination Experts</h1>
-  </header>
 
   <article>
 
+  <div class="input-group rounded inputGroup-sizing-lg">
+  <span class="input-group-text border-0" id="search-addon" id="inputGroup-sizing-lg">
+    <a href="thailand_experts.html"><i class="fas fa-search fa-5x" style="color: grey"></i></a>
+  </span>
+  <input id="locationInput" type="search" class="form-control form-control-lg rounded" placeholder="Search by location" aria-label="Search" aria-describedby="search-addon" />
+</div>
+
+<div class="input-group rounded inputGroup-sizing-lg">
+  <span class="input-group-text border-0" id="search-addon" id="inputGroup-sizing-lg">
+    <a href="thailand_experts.html"><i class="fas fa-search fa-5x" style="color: grey"></i></a>
+  </span>
+  <input id="expertiseInput" type="search" class="form-control form-control-lg rounded" placeholder="Search by expertise" aria-label="Search" aria-describedby="search-addon" />
+</div>
+
+<script>
+  var input = document.getElementById("locationInput");
+  input.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      location.href = "thailand_experts.html";
+    }
+  });
+  </script>
+
+  <h1>Nepal</h1>
+
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="card" style="width: 12rem;">
-          <img class="card-img-top" src="imgs/DE 11.jpg" alt="Card image cap">
+          <img class="card-img-top" src="imgs/aaron.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Juan R.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+            <h5 class="card-title">Aaron B.</h5>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="card" style="width: 12rem;">
-          <img class="card-img-top" src="imgs/DE3.jpg" alt="Card image cap">
+          <img class="card-img-top" src="imgs/DE14.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Ahn N.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+            <h5 class="card-title">Pravat S.</h5>
           </div>
         </div>
       </div>
-          <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="col-sm-3 col-md-3 col-lg-3">
             <div class="card" style="width: 12rem;">
-              <img class="card-img-top" src="imgs/DE2.webp" alt="Card image cap">
+              <img class="card-img-top" src="imgs/nisha.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Cristian M.</h5>
-                <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+                <h5 class="card-title">Nisha T.</h5>
               </div>
             </div>
           </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="card">
+            <img class="card-img-top" src="imgs/romila.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Romila K.</h5>
+            </div>
+          </div>
+        </div>  
+    </div>
 
-        </div>
+    <h1>Spain</h1>
     <div class="row">
-      <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="card" style="width: 12rem;">
-          <img class="card-img-top" src="imgs/DE4.jpg" alt="Card image cap">
+          <img class="card-img-top" src="imgs/DE13.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Jorge G.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+            <h5 class="card-title">Ingrid T.</h5>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="card" style="width: 12rem;">
-          <img class="card-img-top" src="imgs/DE7.jpg" alt="Card image cap">
+          <img class="card-img-top" src="imgs/ron.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Justin Z.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+            <h5 class="card-title">Ron D.</h5>
             <a href="expert.html" class="stretched-link"></a>
           </div>
         </div>
       </div>
-          <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="col-sm-3 col-md-3 col-lg-3">
             <div class="card" style="width: 12rem;">
-              <img class="card-img-top" src="imgs/kiet.jpg" alt="Card image cap">
+              <img class="card-img-top" src="imgs/henry.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Kiet T.</h5>
-                <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+                <h5 class="card-title">Henry W.</h5>
               </div>
             </div>
           </div>
-
-        </div>
-    <div class="row">
-      <div class="col-sm-4 col-md-4 col-lg-4">
-        <div class="card" style="width: 12rem;">
-          <img class="card-img-top" src="imgs/DE8.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Ramesh S.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+	<div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="card">
+            <img class="card-img-top" src="imgs/rose.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rose V.</h5>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
+
+    </div>
+
+    <h1>Thailand</h1>
+
+    <div class="row">
+      <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="card" style="width: 12rem;">
           <img class="card-img-top" src="imgs/DE10.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Helen A.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
           </div>
         </div>
       </div>
-          <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="imgs/neerat.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Neerat T.</h5>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-3 col-md-3 col-lg-3">
             <div class="card" style="width: 12rem;">
-              <img class="card-img-top" src="imgs/DE13.jpg" alt="Card image cap">
+              <img class="card-img-top" src="imgs/nia.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Ingrid T.</h5>
-                <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+                <h5 class="card-title">Nia A.</h5>
               </div>
             </div>
           </div>
 
-        </div>
-    <div class="row">
-      <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="card" style="width: 12rem;">
-          <img class="card-img-top" src="imgs/DE 1.jpg" alt="Card image cap">
+          <img class="card-img-top" src="imgs/DE7.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Kiran T.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
+            <h5 class="card-title">Justin Z.</h5>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
-        <div class="card" style="width: 12rem;">
-          <img class="card-img-top" src="imgs/DE14.webp" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Erin J.</h5>
-            <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
-          </div>
-        </div>
-      </div>
-          <div class="col-sm-4 col-md-4 col-lg-4">
-            <div class="card" style="width: 12rem;">
-              <img class="card-img-top" src="imgs/DE14.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Pravat S.</h5>
-                <p class="card-text">Location: Nepal<br>Expertise: Culture, Housing</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
       </div>
   </article>
 
